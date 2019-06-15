@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Ambula</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_driver_map">Map</string>
+    <string name="title_activity_patient_map">Map</string>
+    <string name="title_activity_blind_map">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="patient">Patient</string>
+    <string name="patient_description">Patient is the person who is going to book ambulance. Becoming a patient will allow you to contact nearby ambulance according to your desired hospital service.</string>
+    <string name="become_patient">Become a Patient</string>
+    <string name="driver">Driver</string>
+    <string name="driver_description">Patient is the person who is going to book ambulance. Becoming a patient will allow you to contact nearby ambulance according to your desired hospital service.</string>
+    <string name="become_driver">Become a Driver</string>
+    <string name="patient_login">Patient Login</string>
+    <string name="driver_login">Driver Login</string>
+    <array name="blood_types">
+        <item>A positive</item>
+        <item>A Negative</item>
+        <item>B positive</item>
+        <item>B Negative</item>
+        <item>AB positive</item>
+        <item>AB Negative</item>
+        <item>O positive</item>
+        <item>O Negative</item>
+    </array>
+</resources>

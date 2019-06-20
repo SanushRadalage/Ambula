@@ -229,8 +229,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
 
-
+        startService(new Intent(this, TheService.class));
+    }
 }
 
 

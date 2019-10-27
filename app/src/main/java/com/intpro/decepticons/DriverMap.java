@@ -281,7 +281,7 @@ public class DriverMap extends FragmentActivity implements OnMapReadyCallback, G
                 .withListener(this)
                 .alternativeRoutes(true)
                 .waypoints(new LatLng(mLastLocation.getLatitude(), mLastLocation.getLongitude()), pickupLatLang)
-                .key("AIzaSyD_Gt6-XkonlREzrKq84q0h744raXr0D7w")
+                .key("") //look at draft mail
                 .build();
         routing.execute();
     }
